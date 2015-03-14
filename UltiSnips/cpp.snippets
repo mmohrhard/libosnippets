@@ -44,3 +44,13 @@ endsnippet
 snippet unoinc "#include for uno headers"
 #include <com/sun/star/${1:sheet}/${2:XInterface}.hpp>
 endsnippet
+
+snippet switch
+switch (${1:var})
+{
+    case ${2:case1}:
+    break;
+    default:${3}
+    break;
+}
+endsnippet
