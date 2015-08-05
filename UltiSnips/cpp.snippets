@@ -58,3 +58,7 @@ endsnippet
 snippet cssref "css::uno::Reference<css::X:Y>"
 css::uno::Reference<css::${1:frame}::${2:XModel}>
 endsnippet
+
+snippet cssseq "css::uno::Sequence<css::X:Y>"
+css::uno::Sequence<css::uno::Reference<${1:frame}::${2:XModel}>>
+endsnippet
